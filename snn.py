@@ -287,17 +287,6 @@ def train(model, trainloader, criterion):
         os.makedirs(save_dir, exist_ok=True)  # Create directory if it doesn't exist
         epoch_model_path = f'{save_dir}/model_epoch_{epoch + 1}.pth'
 
-        torch.save(model.state_dict(), epoch_model_path)
-        print(f'Model for epoch {epoch} saved to {epoch_model_path}')
-        # if (epoch + 1) % 50 == 0:
-        #     save_dir = './model/resnet'
-        #     os.makedirs(save_dir, exist_ok=True)  # 如果目录不存在则创建
-        #     epoch_model_path = f'{save_dir}/model_epoch_{epoch + 1}.pth'
-        #
-        #     torch.save(model.state_dict(), epoch_model_path)
-        #     print(f'Model for epoch {epoch + 1} saved to {epoch_model_path}')
-        test(epoch,model, testloader, criterion)
-
 
 # 测试循环
 def test(epoch,model, testloader, criterion):
