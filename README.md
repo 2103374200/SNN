@@ -2,6 +2,9 @@
 
 N4-acetylcytidine (ac4C) is a significant RNA modification, particularly in the context of gene expression regulation and its implications in diseases. Laboratory-based identification of ac4C is costly and time-consuming, and existing deep learning models have shown unsatisfactory performance. Therefore, there is an urgent need to develop a highly accurate model for ac4C recognition. In response, we propose a Siamese network-based deep learning prediction model, named SNN-ac4C. Specifically, the model incorporates a dual-path contrastive learning architecture, leveraging BiLSTM and Multi-Head Self-Attention (MHSA) mechanisms to capture global contextual relationships, while employing Convolutional Neural Networks (CNN) for traditional biological feature extraction. The contrastive learning approach further enhances the model's ability to distinguish between ac4C-modified and unmodified sites. 
 
+![Uploading model - 副本.jpg…]()
+
+
 # Environment requirements
 Before running, please make sure the following packages are installed in Python environment:
 
