@@ -1,4 +1,4 @@
-# SNN-ac4C: A Siamese Network with Dual-Path Contrastive Learning for Accurate N4-Acetylcytidine Site Prediction
+# Catching RNA’s Hiddens Marks: A Dual-Path Neural Network with Contrastive Learning for ac4C Prediction
 
 N4-acetylcytidine (ac4C) is a significant RNA modification, particularly in the context of gene expression regulation and its implications in diseases. Laboratory-based identification of ac4C is costly and time-consuming, and existing deep learning models have shown unsatisfactory performance. Therefore, there is an urgent need to develop a highly accurate model for ac4C recognition. In response, we propose a Siamese network-based deep learning prediction model, named SNN-ac4C. Specifically, the model incorporates a dual-path contrastive learning architecture, leveraging BiLSTM and Multi-Head Self-Attention (MHSA) mechanisms to capture global contextual relationships, while employing Convolutional Neural Networks (CNN) for traditional biological feature extraction. The contrastive learning approach further enhances the model's ability to distinguish between ac4C-modified and unmodified sites. 
 
